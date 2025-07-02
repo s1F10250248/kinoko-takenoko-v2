@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 kinoko_count = 3
 takenoko_count = 5
-messages = ['Kinoko is wonderful!', 'Takenoko is awesome!']
+messages = ['Kinoko is wonrderful!', 'Takenoko is awesome!']
 
 @app.route('/')
 def top():
